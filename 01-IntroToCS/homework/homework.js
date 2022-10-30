@@ -20,6 +20,13 @@ function BinarioADecimal(num) {
 //  console.log(`suma ${suma}`)
 //return suma;
 
+//recursividad
+// function BinarioADecimal2(num) {
+//   if(num){
+//     return num[0]*(2**(num.length-1)) + BinarioADecimal2(num.slice(1))
+//   }
+//   return 0;
+
 }
 
 function DecimalABinario(num) {
@@ -36,8 +43,6 @@ function DecimalABinario(num) {
   }
   return binario.reverse().join("");
 
-
-
  // let a="";
  // let b=0;
  // for(num;num>0;b){
@@ -45,6 +50,16 @@ function DecimalABinario(num) {
  //   num=Math.floor(num/2)
  // }
  // return a;
+ 
+
+//  function DecimalABinario2(num) {
+//   if(num/2>0){
+//     return num%2+DecimalABinario2(Math.floor(num/2))  
+//   }
+//   return "";
+// }
+// DecimalABinario2(4).split("").reverse().join("")
+// DecimalABinario2(7).split("").reverse().join("")
 
 }
 
