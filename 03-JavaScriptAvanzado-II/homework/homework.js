@@ -45,13 +45,13 @@ function cacheFunction(cb) {
   */
   
   let save={};
-  return function(arg){
+   return function cal(arg){
     if(save.hasOwnProperty(arg)){
       return save[arg]
     }
-    save[arg]=cb(arg);
-      return save[arg];
+    return save[arg]=cb(arg);
   }
+ 
 }
 
 // Bind

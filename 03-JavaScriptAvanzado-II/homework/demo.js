@@ -16,9 +16,19 @@ contador2()+" contador2"
 contador2()+" contador2"
 */
 
+/*Para crear una CLAUSURA (Closure) EN JAVASCRIPT necesitamos 3 ingredientes: una función anidada, una referencia a
+ una variable de un scope superior y una invocación a esta función pero desde otro scope distinto al que fue creada.*/
+
+
+/*¿Qué son los Closures JS?
+Una clausura o closure es una función que guarda referencias del estado adyacente (ámbito léxico). En otras palabras,
+ una clausura permite acceder al ámbito de una función exterior desde una función interior
+ */
 /*Aqui el motor de javascript crea un new execution contexc para contador2 !!NO USA EL MISMO
 QUE UTILIZO PARA CONTADOR 1 ES POR ESO QUE INICIALIZA DE CERO¡¡.
-CADA VES QUE SE EJECUTA UNA NEW FUCCTION CONTEXC JAVA SCRIPT CREA UN NEW EXECUTION CONTEXC CON UN NEW LEXICAL ENVIRONMENT(ENTORNO DONDE ESTA ESCRITO NUESTRO CODIGO), COMO CADA CONTADOR FUE CREADO EN ENTORNOS DISTINTOS SOLO PUEDEN SER MODIFICADOS POR LAS FUNCIONES QUE PUEDEN ACCEDER A CADA UNO DE ESOS ENTORNOS.*/
+CADA VES QUE SE EJECUTA UNA NEW FUCCTION CONTEXC JAVA SCRIPT CREA UN NEW EXECUTION CONTEXC 
+CON UN NEW LEXICAL ENVIRONMENT(ENTORNO DONDE ESTA ESCRITO NUESTRO CODIGO), COMO CADA CONTADOR
+ FUE CREADO EN ENTORNOS DISTINTOS SOLO PUEDEN SER MODIFICADOS POR LAS FUNCIONES QUE PUEDEN ACCEDER A CADA UNO DE ESOS ENTORNOS.*/
 
 
 //USO DE CLOSURES
